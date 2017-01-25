@@ -1,0 +1,16 @@
+body{
+    background-color: #a6d120;
+    font-family: Arial;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.template{
+    background-color: rgba(0,0,0,.2);
+    padding: 1em;
+}
+
+
+
