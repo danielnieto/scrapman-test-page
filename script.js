@@ -9,6 +9,11 @@ var myViewModel = {
     template2: {
         title: "This also uses the same template but with different text"
     },
+    counter: ko.observable(0)
 };
+
+setInterval(function(){
+    myViewModel.counter(myViewModel.counter()+1);
+}, 1000);
 
 ko.applyBindings(myViewModel);

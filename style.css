@@ -12,5 +12,22 @@ body{
     padding: 1em;
 }
 
+#time-elapsed{
+    background-color: rgba(255,0,0,.5);
+    padding: 1em;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+#time-elapsed::before{
+    content: "Time elapsed";
+    font-size: 22px;
+    position: absolute;
+    top: .2em;
+    left:.2em;
+    
+}
 
 

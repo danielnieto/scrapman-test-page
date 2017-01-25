@@ -14,7 +14,7 @@
    <ul data-bind="foreach: items">
 		<li data-bind="text: $data"></li>
 	</ul>
-	
+
 	<select data-bind="options: options, value: selectedOption, optionsCaption:'select an option'"></select>
     <span>The selected option is: </span><span data-bind="text: selectedOption"></span>
     
@@ -24,10 +24,12 @@
     
     <template id="mytemplate">
         <p class="template">
-        í ½í±½ <strong data-bind="text: title"></strong>
+            This is a template <strong data-bind="text: title"></strong>
         </p>
     </template> 
     
+  <div id="time-elapsed" data-bind="text: counter"></div>
+
     <script src="script.js"></script>
   </body>
 </html>
